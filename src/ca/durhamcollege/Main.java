@@ -1,9 +1,22 @@
+/*
+*Name: Ashok Sasitharan
+*Date: November 11 2020
+
+ */
+
 package ca.durhamcollege;
 
-public class Main {
+import java.util.Scanner;
+
+public class Main
+{
 
     public static void main(String[] args)
     {
-        System.out.println();
+        String name = "";
+        Scanner keyboard = new Scanner(System.in);
+        System.out.print("Enter your name: ");
+       name = keyboard.nextLine();
+        System.out.printf("You entered: %s",name);
     }
 }
